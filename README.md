@@ -5,4 +5,6 @@ It uses [Gulp](http://gulpjs.com/) and [gulp-imagemin](https://github.com/sindre
 
 ## Usage
 
-TODO
+Run `docker run -v /path/to/images/:/images/src imageoptim`
+
+Optimised images will be copied to an `optimised` folder in the images source directory.
